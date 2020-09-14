@@ -17,8 +17,22 @@
                 <Label Text="Roheline" HorizontalOptions="Center" VerticalOptions="Center"/>
             </Frame>
             <StackLayout Orientation="Horizontal">
-                <Button x:Name="onButton" Text="ON" Clicked="onButton_Clicked" HorizontalOptions="StartAndExpand" />
-                <Button x:Name="offButton" Text="OFF" Clicked="offButton_Clicked" HorizontalOptions="EndAndExpand" />
+                <Button x:Name="onButton"
+                        Text="ON" 
+                        Clicked="on_Clicked" 
+                        HorizontalOptions="StartAndExpand" />
+                <Button x:Name="offButton"
+                        Text="OFF"
+                        Clicked="off_Clicked" 
+                        HorizontalOptions="EndAndExpand" />
+                <Button x:Name="Random" 
+                        Text="Random"
+                        Clicked="Random_Clicked"
+                        HorizontalOptions="StartAndExpand" />
+                <Button x:Name="Oma"
+                        Text="minu oma"
+                        HorizontalOptions="EndAndExpand"
+                        Clicked="Oma_Clicked"/>
             </StackLayout>
             </StackLayout>
     </ContentPage.Content>
